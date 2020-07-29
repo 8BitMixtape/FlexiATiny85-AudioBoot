@@ -8,8 +8,6 @@
 // 
 // 
 
-
-#define ONEWIREPIN   PB4
 #define NEOPIXELPIN    0
 #define NUMPIXELS      8
 #define SPEAKERPIN     1
