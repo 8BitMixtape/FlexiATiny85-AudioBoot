@@ -2,14 +2,14 @@
 #include "pitches.h"
 
 // 
-//
 // 
-//
+// 
+// 
 // 
 // 
 
 #define NEOPIXELPIN    0
-#define NUMPIXELS      8
+#define NUMPIXELS      16
 #define SPEAKERPIN     1
 
 #define hell          255 // Brightness
@@ -162,7 +162,7 @@ void setup(void) {
   pixels.begin();
   pixels.setBrightness(brightness);
   
-  rainbowCycle(2,3,32);
+  rainbowCycle(2,3,16);
   
   delay(100);
   
@@ -185,6 +185,6 @@ void setup(void) {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 void loop(void) { 
-  rainbowCycle(30,50,32);
+  rainbowCycle(200,50,255);
 
 }
