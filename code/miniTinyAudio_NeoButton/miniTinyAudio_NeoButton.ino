@@ -328,7 +328,11 @@ void loop(void) {
   
   if( b == BUTTON_RIGHT + BUTTON_LEFT )   
     {
+<<<<<<< HEAD
       rainbowCycle(5,3,16);
+=======
+      rainbowCycle(10,10,100);
+>>>>>>> 9e74a5c8476992f91928595769416779d9c85492
     }
   pixels.show(); // Initialize all pixels to 'off'
 
